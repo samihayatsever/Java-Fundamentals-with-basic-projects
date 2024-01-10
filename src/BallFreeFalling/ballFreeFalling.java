@@ -16,7 +16,6 @@ public class ballFreeFalling{
     public static void main(String[] args) {
         
         playGround pg = new playGround(10);
-        int BlcNo;
         
         int n = 10000; // Number of threads or ball
         for (int i = 0; i < n; i++) {
